@@ -7,11 +7,11 @@ export const Header = () => {
     <header className="bg-white shadow-md">
       <div className="container mx-auto px-4 py-2 flex justify-between items-center">
         <Link href="/">
-          <a className="text-xl font-bold">Instagram Clone</a>
+          <span className="text-xl font-bold">Instagram Clone</span>
         </Link>
         <nav>
           <Link href="/profile">
-            <a className="text-gray-700 ml-4">Profile</a>
+            <span className="text-gray-700 ml-4">Profile</span>
           </Link>
         </nav>
       </div>
